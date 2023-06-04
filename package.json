@@ -4,7 +4,8 @@
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "setup": "prisma generate && prisma migrate deploy"
   },
   "dependencies": {
     "@conform-to/react": "^0.6.3",
